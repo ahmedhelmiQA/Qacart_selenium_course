@@ -7,12 +7,12 @@ public class FindElmenetByCssSelector {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
        driver.get("file://D:\\testing\\Automation project\\Qacart_selenium_course\\src\\main\\resources\\index.html");
-        ///consol  $("#id")                           //// #id ////
+        ///console  $("#id")                           //// #id ////
         /*
         String elementtext = driver.findElement(By.cssSelector("#welcome")).getText();
 
          */
-        ///consol  $(".class")                          /// .class ///
+        ///console  $(".class")                          /// .class ///
        /*
         String elementtext = driver.findElement(By.cssSelector(".list1")).getText();
 
@@ -26,12 +26,12 @@ public class FindElmenetByCssSelector {
         String elementtext = driver.findElement(By.cssSelector("[data-testid=welecome-header]")).getText();
 
          */
-       ///consol  $("[name=description]")               ///   [name=value]
+       ///console  $("[name=description]")               ///   [name=value]
         /*
         String elementtext = driver.findElement(By.cssSelector("[name=description]")).getText();
          */
 
-        ///consol $(".course-list .list2")                 //Parent and children//         (".parent .children")
+        ///console $(".course-list .list2")                 //Parent and children//         (".parent .children")
         /*
         String elementtext = driver.findElement(By.cssSelector(".course-list .list2")).getText();
 
