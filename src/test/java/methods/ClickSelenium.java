@@ -40,7 +40,7 @@ public class ClickSelenium {
             System.out.println(driver.getWindowHandles());
 */
                                    //// switch to window //
-
+/*
         driver.get("https://the-internet.herokuapp.com/login");
        String parent = driver.getWindowHandle();
         driver.findElement(By.linkText("Elemental Selenium")).click();
@@ -51,7 +51,17 @@ public class ClickSelenium {
             if (!window.equalsIgnoreCase(parent)){
               System.out.println(driver.getTitle());
              driver.switchTo().window(window);
-                System.out.println(driver.getTitle());
+              */
+                               /// close and quite
+    /*
+               driver.switchTo().window(window);
+             //driver.close();
+             //driver.quit();
+             driver.switchTo().window(parent);
+             driver.close();
+             driver.quit();
+              */
+
             }
         }
 
