@@ -24,22 +24,22 @@ public class ClickSelenium {
         //coursesDropDown.selectByValue("selenium");
         coursesDropDown.selectByVisibleText("wdiocourse");
          */
-                                                /// is Displayed //
+                                     /// is Displayed
 
-      //////////////                              getWindowHandle
+      //////////////                      getWindowHandle
 /*
         driver.get("https://qacart.com");
          String parent = driver.getWindowHandle();
         System.out.println(driver.getWindowHandles());
           */
-                                   //// getWindowHandles //
+                                   //// getWindowHandles
     /*
      driver.get("https://the-internet.herokuapp.com/login");
             System.out.println(driver.getWindowHandle());
         driver.findElement(By.linkText("Elemental Selenium")).click();
             System.out.println(driver.getWindowHandles());
 */
-                                   //// switch to window //
+                                   //// switch to window
 /*
         driver.get("https://the-internet.herokuapp.com/login");
        String parent = driver.getWindowHandle();
@@ -52,7 +52,7 @@ public class ClickSelenium {
               System.out.println(driver.getTitle());
              driver.switchTo().window(window);
               */
-                               /// close and quite
+                               ///       close and quite
     /*
                driver.switchTo().window(window);
              //driver.close();
@@ -60,13 +60,14 @@ public class ClickSelenium {
              driver.switchTo().window(parent);
              driver.close();
              driver.quit();
+             }
               */
 
-            }
+
         }
 
 
 //        driver.quit();
 
     }
-}
+
