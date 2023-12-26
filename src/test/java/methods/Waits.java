@@ -41,7 +41,20 @@ public class Waits {
         driver.findElement(By.className("secondary")).click();
          */
 
+        //                     create an object, To reduce the steps
+        /*
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("primary"))).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("cover")));
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("cover")));
+
+        driver.findElement(By.className("secondary")).click();
+        */
 
 
+
+  // Warning: Do not mix implicit and explicit waits. Doing so can cause unpredictable wait times
+      //  لا تخلط بين فترات الانتظار الضمنية والصريحة. قد يؤدي القيام بذلك إلى أوقات انتظار غير متوقعة
     }
 }
