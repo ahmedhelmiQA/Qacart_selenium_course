@@ -29,6 +29,17 @@ public class Waits {
         new WebDriverWait(driver,Duration.ofSeconds(10))
         .until(ExpectedConditions.visibilityOfElementLocated(By.className("primary"))).click();
         */
+        //                            Deal with covered elements
+        /*
+        //                         ظهور ال cover
+        new WebDriverWait(driver,Duration.ofSeconds(10))
+        .until(ExpectedConditions.visibilityOfElementLocated(By.className("cover")));
+              //                       اختفاء ال cover
+        new WebDriverWait(driver,Duration.ofSeconds(10))
+        .until(ExpectedConditions.invisibilityOfElementLocated(By.className("cover")));
+
+        driver.findElement(By.className("secondary")).click();
+         */
 
 
 
